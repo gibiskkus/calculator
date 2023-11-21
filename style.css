@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.bolshoy{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   flex-direction:column ;
+}
+.question{ font-size:100px;font-family: 'Montserrat', sans-serif;padding:60px }
+.answers{ 
+    display:flex;
+    flex-direction:row;
+   
+    }
+.answer{
+font-family: 'Montserrat', sans-serif;
+margin:10px;
+border:2px solid #FDD9B5;
+padding: 25px;
+border-radius: 10px;
+
+}
+.start_btn { font-size:60px; border: 4px double #60e09c;background-color:#60e09c;
+padding: 10px;text-align: center; width:200px;border-radius: 10px;
+}
+.start{display: flex; justify-content: center;flex-direction: column; align-items:center;padding: 190px;
+}
+ .statistika {display: flex; justify-content: center;font-size:23px ; }
